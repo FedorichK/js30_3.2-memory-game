@@ -64,7 +64,7 @@ body {
 .button__section {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   padding-top: 0%;
   height: 10%;
 }
@@ -79,4 +79,59 @@ background-color: rgb(0, 0, 0);
 border: 2px solid #ffffff;
 border-radius: 5%;
 cursor: pointer;
+}
+
+#endGameMessage {
+  display: none;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-right: 7%;
+}
+
+#resultsTable {
+  display: none;
+  font-size: 100%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+  text-align: center;
+}
+
+.footer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-left: 400px;
+}
+
+.footer-container {
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+.rss {
+  width: 100px;
+  height: 40px;
+  background-image: url(./rss.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  color: #fff;
 }
